@@ -1,0 +1,117 @@
+/* *{
+    padding: 0;
+    width: 0;
+}  */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.content-main{
+    background-color: black;
+    width: 1000px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+hr{
+    width: 700px;
+}
+
+.content-box{
+    background-color: gray;
+    border: solid 1px white;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-cash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-input h2{
+   margin-bottom: 10px;
+   color: white;
+}
+
+.inptclp{
+    text-align: center;
+    height: 25px;
+}
+
+.content-select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-select h3{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.sltmoney{
+    height: 30px;
+    width: 180px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnbuscar{
+    width: 180px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(52, 216, 216);
+    font-weight: bolder;
+    margin-top: 30px;
+    color: white;
+}
+
+.detalle{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.graph{
+    width: 600px;
+    height: 400px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+
